@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Roboto, sans-serif;
+}
+
+.product-card {
+  width: 25.5rem;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 3rem;
+  font-family: Roboto, sans-serif;
+  display: flex;
+}
+
+.product-card__img {
+  width: 12.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-card__text {
+  text-align: center;
+  color: #000;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.product-card__price {
+  text-align: center;
+  color: #000;
+  letter-spacing: .05em;
+  margin-bottom: 2rem;
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.product-card__price:after {
+  content: "₽";
+}
+
+.product-card__btn {
+  color: #fff;
+  text-align: center;
+  letter-spacing: .05em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #66c05d;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.product-card__btn:hover {
+  background-color: #3b8433;
+}
+
+.product-card__btn:focus {
+  outline: none;
+}
+
+.subscribe {
+  color: #fff;
+  width: 54rem;
+  background-color: #66c05d;
+  justify-content: space-between;
+  padding: 3.5rem 4rem;
+  display: flex;
+}
+
+.subscribe__title {
+  margin-bottom: 2.5rem;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.subscribe__text {
+  width: 23.1rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.subscribe__input {
+  color: #c4c4c4;
+  background-color: #fff;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem 0 1rem 2.5rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.subscribe__icon {
+  width: 14rem;
+}
+
+.our-shops {
+  color: #fff;
+  width: 54rem;
+  background-color: #66c05d;
+  justify-content: space-between;
+  padding: 3.5rem 4rem;
+  display: flex;
+}
+
+.our-shops__title {
+  margin-bottom: 2.5rem;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.our-shops__text {
+  width: 14.1rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.our-shops__icon {
+  width: 18.9rem;
+}
+
+.our-shops__btn {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #66c05d;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.our-shops__btn:hover {
+  color: #66c05d;
+  background-color: #fff;
+  border: 1px solid #66c05d;
+}
+
+.our-shops__btn:focus {
+  outline: none;
+}
+
+.call-btn {
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #fff;
+  border: 1px solid #66c05d;
+  border-radius: 40px;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.call-btn:hover {
+  color: #fff;
+  background-color: #66c05d;
+  border: 1px solid #66c05d;
+}
+
+.call-btn:focus {
+  outline: none;
+}
+
+body {
+  background-color: #ccc;
+  font-family: Roboto, sans-serif;
+}
+
+.divider {
+  height: 50px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.ui__title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.btnGoods {
+  color: #fff;
+  text-align: center;
+  letter-spacing: .05em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #66c05d;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btnGoods:hover {
+  background-color: #3b8433;
+}
+
+.btnGoods:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=uikit.f998b137.css.map */

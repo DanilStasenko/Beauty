@@ -1,0 +1,41 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    max-width: 25.5rem;
+    padding: 2.5rem 3rem;
+    font-family: $mainFont;
+
+    &__img {
+        width: 12.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        text-align: center;
+        color: $black;
+        margin-bottom: 2rem;
+    }
+
+    &__price {
+        font-weight: 500;
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: $black;
+        letter-spacing: 0.05em;
+        margin-bottom: 2rem;
+
+        &::after {
+            content: '₽';
+        }
+    }
+
+    &__btn {
+        @include btnGoods();
+    }
+}

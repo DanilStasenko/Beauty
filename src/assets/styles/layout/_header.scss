@@ -1,0 +1,118 @@
+.top-header {
+    background-color: $darkGrey;
+    padding: 1.7rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        color: #333333;
+        margin-right: .7rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @media ($tablet) {
+            margin-right: 3rem;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.center-header {
+    padding: 2rem .5rem;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 6rem;
+        margin-right: .2rem;
+        @media ($tablet) {
+            width: 8rem;
+            margin-right: 2rem;
+        }
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.1em;
+        color: $green;
+
+        @media ($tablet) {
+            font-size: 3.6rem;
+        }
+    }
+
+    &__call-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__number {
+        display: none;
+
+        @media ($tablet) {
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: $black;
+            margin-right: 4rem;
+        }
+    }
+}
+
+.line {
+    height: 2px;
+    border-width: 0;
+    color: $lightGray;
+    background-color: $lightGray;
+}
+
+.bottom-header {
+    padding: 3rem 0;
+    position: relative;
+    z-index: 5;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        color: $black;
+        margin-right: .7rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @media ($tablet) {
+            margin-right: 4rem;
+            font-size: 1.6rem;
+        }
+    }
+}

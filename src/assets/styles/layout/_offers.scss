@@ -1,0 +1,23 @@
+.offers {
+    background-color: $lightGray;
+    padding: 0 0rem 10rem 0rem;
+    @media ($tablet) {
+        padding-bottom: 13rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        @media ($tablet) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__subscribe {
+        margin-bottom: 2rem; 
+        @media ($tablet) {
+            margin-bottom: 0;
+        }
+    }
+}

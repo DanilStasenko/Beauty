@@ -1,0 +1,62 @@
+.our-shops {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem 4rem;
+    background-color: $green;
+    color: $white;
+    width: 100%;
+    @media ($tablet) {
+        width: 45%;
+    }
+    @media ($desktop) {
+        flex-direction: row;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+        @media ($desktop) {
+            text-align: left;
+        }
+    }
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    &__text {
+        align-self: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+        @media ($tablet) {
+            width: 14.1rem;
+        }
+        @media ($desktop) {
+            text-align: left;
+            align-self: start;
+        }
+    }
+
+    &__icon {
+        width: 18.9rem;
+    }
+
+    &__btn {
+        @include btnMapShops();
+        margin-bottom: 2rem;
+        align-self: center;
+        text-align: center;
+        @media ($tablet) {
+            margin-bottom: 0;
+        }
+    }
+}

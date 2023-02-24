@@ -1,0 +1,13 @@
+@import './utils';
+@import './components';
+@import './layout';
+
+body {
+    font-family: $mainFont;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
